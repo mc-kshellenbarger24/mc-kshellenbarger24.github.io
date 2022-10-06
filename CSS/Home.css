@@ -49,10 +49,9 @@ body{
     position: absolute;
     transform: translate(50%, -50%);
     left: -40px;
-    top: 5vh;
+    top: 4vh;
     max-width: 201.41px;
     z-index: 1;
-
 }
 
 #ImgClass{
