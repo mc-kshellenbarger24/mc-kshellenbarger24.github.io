@@ -117,10 +117,13 @@ body{
 }
 
 #Img1{
-	width: 31vw;
+	width: 24vw;
 	position: absolute;
 	transform: translate(50%, -50%);
+	right: 33vw;
+	top: 23vh;
 }
+
 #Team{
 	position: absolute;
 	transform: translate(50%, -50%);
