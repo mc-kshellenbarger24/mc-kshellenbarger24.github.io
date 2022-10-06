@@ -47,6 +47,7 @@ Buttons.forEach(Button => {
     })
 
     Button.addEventListener("mouseover",(Data)=>{
+        
         if(CurrentUrl.search(Data.target.getAttribute("Path")) != -1){
             HoverTab.style.opacity = 0
         }else{
