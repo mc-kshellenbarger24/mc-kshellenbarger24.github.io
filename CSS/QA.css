@@ -1,0 +1,135 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+html{
+	width:100%;
+	height:100%;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+body{
+	min-width:100%;
+	min-height:100%;
+	background: #28353b;
+	color:white;
+}
+
+#Header {
+	background: #fe615200;
+	opacity: .9;
+	color: white;
+	text-align: center;
+}
+
+#Links{
+	width:100%;
+	text-align: center;
+	background: #fe6152;
+	opacity: .9;
+}
+
+.LinkText{
+	display: inline;
+	font-size: 30px;
+}
+
+.Links{
+	color:white;
+	padding:4px;
+}
+
+
+#Logo {
+    width: 97px;
+    position: absolute;
+    transform: translate(50%, -50%);
+    left: -40px;
+    top: 5vh;
+    max-width: 201.41px;
+    z-index: 1;
+
+}
+
+
+#ArticleText{
+	width: 97vw;
+	font-size: 80%;
+	background: #2e3d44;
+	position: absolute;
+	left: 50vw;
+	top: 32vh;
+	height: 75vh;
+	transform: translate(-50%, -50%);
+	overflow: auto;
+	padding: 0%;
+	border: solid #fe6152 3px;
+	border-radius: 20px;
+}
+
+#Article {
+	position:absolute;
+	color: white;
+	text-align: center;
+	width: 98vw;
+	font-size: 172%;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 25%;
+	animation: Fade 5s 1;
+}
+
+
+#CopyRight {
+	position: absolute;
+	transform: translate(50%, -50%);
+	top: 97vh;
+	right:50%;
+	font-size: 75%;
+}
+
+#TabBox{
+    width: 100%;
+    height: 37px;
+    position: absolute;
+    z-index: -1;
+}
+
+#CurrentTab{
+	position: absolute;
+	width: 87.9px;
+	height: 13px;
+	border-radius: 0px 0px 10px 10px;
+	z-index:-1;
+	opacity:0;
+	transition:opacity 1s;
+}
+
+#HoverTab{
+	position: absolute;
+	width: 87.9px;
+	height: 13px;
+	border-radius: 0px 0px 10px 10px;
+	z-index:-1;
+	opacity:0;
+	transition: left 0.5s, width 0.5s, opacity 0.5s;
+}
+
+
+@keyframes Fade {
+	from {opacity:0;}
+	to {opacity:1;}
+}
+
+.Info{
+    margin-top: 2vh;
+    padding: 2%;
+    font-size: 19px;
+}
+
+
+
